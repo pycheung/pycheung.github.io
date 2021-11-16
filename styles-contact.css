@@ -53,14 +53,16 @@ table {
 
 
 
-/* ---------- Hello, my name is YOUR NAME GOES HERE and this is the beginning of my CONTACT PAGE CSS for 318 Digital Typography November 2019 ------------ */
+/* ---------- Hello, my name is Patrice Cheung and this is the beginning of my CONTACT PAGE CSS for 201 November 2020 ------------ */
 
 html, body {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #404040; 
+  background: url(images/bricks_bg.jpg) 
+	center center fixed no-repeat;
+	background-size: cover;
 	
 	
 }
@@ -71,7 +73,7 @@ html, body {
     margin: 100px auto;
  	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border: 4px dashed white;  
 }
 
    
@@ -82,14 +84,18 @@ html, body {
 }
 
 h1 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+	font-family: Verdana, sans-serif;
+	font-weight: 400;
+	font-size: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
 }
 
 h2 {
-	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
+	font-family: Verdana, sans-serif;
+	font-weight: 400;
+	font-size: normal;
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
@@ -98,11 +104,50 @@ h2 {
 }
 
 p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		
+	font-family: Verdana, sans-serif;
+	font-weight: 400;
+	font-size: normal;		
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
 }
     
-    
+nav {
+	font-family: verdana;
+	font-size: 1.2em;
+	width: 400px;
+	margin: 0 auto;
+	border:dashed turquoise;
+	border-width: 3px 0;
+	text-align: center;
+	margin-top: 2em;
+}
+
+nav li {
+	display:inline;
+}
+
+nav a{
+	display:inline-block;
+	padding: 10px;
+}
+
+a{
+	color: #444;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover { 
+	color: black;
+	background:pink;
+}
+
+
+
+
+
+
+
+
 
