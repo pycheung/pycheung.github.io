@@ -73,7 +73,7 @@ html, body {
 	padding: 2%;
     margin: 100px auto;
     border-radius: 30px 150px;
- 	background: rgba(256, 256, 256, .60); /*this uses opacity of 60% for the background color*/
+ 	background: rgba(256, 256, 256, .70); /*this uses opacity of 60% for the background color*/
 	text-align: center;
 }
 
